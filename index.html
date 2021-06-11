@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Learning Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <img src="images/clipart371999.png" class="logo">
+            <div class="header-text">
+                <h1>Our purpose is to<br> tech,Bring learning to everyone</h1>
+                <span class="circle"></span>
+                <p>Learn new knowledge and skills in a variety of ways, from engaging video lectures and dynamic graphics to data visualizations and interactive elements. Practice Demonstrating your knowledge is a critical part of learning.</p>
+                <button class="common-btn">Read More</button>
+                <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <nav id="sideNav">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">OFFERS</a></li>
+            <li><a href="#">FEATURES</a></li>
+            <li><a href="#">COURCES</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">ABOUT US</a></li>
+
+            
+        </ul>
+    </nav>
+    <img src="images/menu.png" id="menuBtn">
+<!--about -->
+    <section id="about">
+        <div class="about-left-col">
+            <img src="images/about.png" >
+        </div>
+        <div class="about-right-col">
+            <div class="about-text">
+                <h1>About Us</h1>
+                <span class="circle"></span>
+                <p>E-learning is here to stay and is expected to keep growing tremendously globally. With competition getting stiff in this space, offering a hassle-free user experience with good content will be the winning formula. Your website is the framework of your business and ensuring you have the right e-learning website features if the first step in this direction. We hope our list of ten essential online learning website features can give you a headstart. </p>
+                <br><br><div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+
+                </div>
+                <h3> "Learning is not attaine by chance, it must be sought for with ardor and attended to with diligence"</h3>
+                <h4>------Abigail Adams</h4>
+
+            </div>
+        </div>
+
+    </section>
+<!--features-->
+    <section id="features">
+        <div class="feature-row">
+            <div class="feature-col">
+                <img src="images/pic-1.png" >
+                <h4>Learn Anywhere</h4>
+                <p>Switch between your computer, tablet or mobile device.</p>
+            </div>
+            <div class="feature-col">
+                <img src="images/pic-2.png" >
+                <h4>Exoert Teacher</h4>
+                <p>Learn from industry experts who are passionate about teaching.</p>
+            </div>
+            <div class="feature-col">
+                <img src="images/pic-3.png" >
+                <h4>Unlimited Access</h4>
+                <p>Choose what you'd like to learn from our extensive subscriotion library</p>
+            </div>
+
+        </div>
+        <div class="feature-btn">
+            <div class="line">
+                <span class="line-1"></span><br>
+                <span class="line-2"></span><br>
+                <span class="line-3"></span>
+
+            </div>
+            <button class="common-btn">Start Free Trail</button>
+
+        </div>
+
+    </section>
+
+
+
+    <script>
+        var menuBtn =document.getElementById("menuBtn");
+        var sideNav =document.getElementById("sideNav");
+
+        sideNav.style.right="-250px";
+        menuBtn.onclick=function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right="0";
+            }
+            else{
+                sideNav.style.right = "-250px";
+            }
+        }
+    </script>
+</body>
+</html>
