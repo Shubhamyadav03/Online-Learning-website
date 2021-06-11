@@ -169,3 +169,21 @@ nav ul li a{
     display: inline-block;
     margin-right: 25px;
 }
+/*-------------------------cources---------------------------*/
+#cources{
+    padding: 100px 0;
+}
+.cource-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cource-right-col{
+    flex-basis: 50%;
+}
+.cource-right-col img{
+    width: 100%;
+}
+.cource-left-col{
+    flex-basis: 50%;
+}
